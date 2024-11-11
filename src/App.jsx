@@ -2,13 +2,17 @@ import "./App.css";
 import Footer from "./components/Footer.jsx";
 import Home from "./components/Home.jsx";
 import Navbar from "./components/Navbar.jsx";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import Register from "./components/Register.jsx";
+import Login from "./components/Login.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      {/* <Register/> */}
+      <Login />
       <Footer />
     </>
   );
