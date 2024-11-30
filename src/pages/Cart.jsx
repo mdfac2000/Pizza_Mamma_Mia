@@ -1,6 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { pizzaCart } from './pizzas'; // Importa el array de pizzaCart
+import { pizzaCart } from '../components/pizzas'; // Importa el array de pizzaCart
 import { useState } from 'react';
 
 const Cart = () => {
